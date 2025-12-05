@@ -22,7 +22,7 @@ describe("<CartSlots />", () => {
   it("shows dashes when slots are empty and no Remove buttons", () => {
     const cart: CartState = {};
     renderWithProviders(<CartSlots cart={cart} onRemoveSlot={() => {}} />);
-    expect(screen.getAllByText("—")).toHaveLength(3);
+    expect(screen.getAllByText("-")).toHaveLength(3);
     expect(screen.queryByRole("button", { name: /remove/i })).toBeNull();
   });
 
