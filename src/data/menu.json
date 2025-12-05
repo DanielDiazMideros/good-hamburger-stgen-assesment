@@ -1,0 +1,7 @@
+[
+  { "id": "burger", "name": "Burger", "category": "sandwich", "price": 5.0 },
+  { "id": "egg", "name": "Egg", "category": "sandwich", "price": 4.5 },
+  { "id": "bacon", "name": "Bacon", "category": "sandwich", "price": 7.0 },
+  { "id": "fries", "name": "Fries", "category": "extra", "price": 2.0 },
+  { "id": "soft_drink", "name": "Soft drink", "category": "extra", "price": 2.5 }
+]
